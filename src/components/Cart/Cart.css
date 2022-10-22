@@ -1,5 +1,36 @@
-.cart{
-    position: sticky;
-    top: 0;
-    padding: 30px 20px;
+.cart {
+  position: sticky;
+  top: 0;
+  padding: 30px 20px;
+}
+.clear-btn {
+  width: 100%;
+  padding: 18px 0;
+  background-color: rgba(255, 48, 48, 0.9);
+  color: aliceblue;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.clear-icon {
+  margin-left: 10px;
+}
+.review-btn {
+  width: 100%;
+  padding: 18px 0;
+  background-color: rgba(255, 153, 0, 1);
+  color: aliceblue;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.review-btn:hover {
+  background-color: rgb(21, 21, 2);
+  cursor: pointer;
+}
+.clear-btn:hover {
+  background-color: rgb(21, 21, 2);
+  cursor: pointer;
 }

@@ -1,0 +1,47 @@
+.review-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(149, 160, 167, 1);
+  height: 107px;
+  width: 571px;
+  margin: 25px auto;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.review-details-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-details p {
+  margin: 0;
+}
+
+.review-container img {
+  width: 91px;
+  margin-right: 18px;
+}
+
+.money-amount {
+  color: #ff9900;
+}
+
+/* delete icon style */
+.delete-btn {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 0;
+  background: rgba(235, 87, 87, 0.3);
+}
+.delete-btn:hover {
+  background: rgba(235, 87, 87, 0.5);
+  cursor: pointer;
+}
+.delete-icon {
+  font-size: 31px;
+  color: rgba(235, 87, 87, 1);
+}
